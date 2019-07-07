@@ -62,6 +62,7 @@ development_pip_packages:
   - cppclean
   - docker-compose
   - pylint
+  - virtualenv
 
 dotfiles:
   - .bashrc
