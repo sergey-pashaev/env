@@ -12,3 +12,9 @@
       snap:
         name: ccls
         classic: true
+
+    - name: download dash docsets
+      get_url:
+        url: "http://london.kapeli.com/feeds/{{ item }}.tgz"
+        dest: "~/docsets/{{ item }}.tgz"
+      with_items: "{{ dash_docsets }}"

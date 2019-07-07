@@ -90,3 +90,13 @@ my_git_repos:
   - skiena-cpp
   - smrd
   - socks
+
+dash_docsets:
+  - Ansible
+  - Bash
+  - Boost
+  - C
+  - C++
+  - CMake
+  - Docker
+  - Python_2
