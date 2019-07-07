@@ -48,6 +48,7 @@ development_deb_packages:
   - python-pip
   - python3
   - shellcheck
+  - sqlite3
   - strace
   - tcpflow
   - tshark
