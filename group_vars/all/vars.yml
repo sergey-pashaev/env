@@ -1,5 +1,4 @@
 ---
-#  - docker.io
 common_deb_packages:
   - anki
   - apt-file
@@ -9,6 +8,7 @@ common_deb_packages:
   - chromium-browser
   - cron
   - curl
+  - docker.io
   - gnupg2
   - gnuplot
   - graphviz
