@@ -13,6 +13,7 @@ common_deb_packages:
   - gnuplot
   - graphviz
   - htop
+  - hugo
   - ledger
   - mc
   - nmap
