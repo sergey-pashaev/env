@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  tasks:
+    - name: create needed dirs
+      file:
+        state: directory
+        path: "~/{{ item }}"
+      with_items:
+        - github
+        - src
+        - workspace

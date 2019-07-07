@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+    - name: install .emacs.d
+      file:
+        src: ~/github/.emacs.d
+        dest: ~/.emacs.d
+        state: link

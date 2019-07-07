@@ -1,0 +1,10 @@
+---
+# configs
+- hosts: localhost
+  tasks:
+    - name: install dotfiles
+      file:
+        src: "{{ playbook_dir }}/dotfiles/{{ item }}"
+        dest: "~/{{ item }}"
+        state: link
+      with_items: "{{ dotfiles }}"

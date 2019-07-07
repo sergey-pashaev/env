@@ -1,0 +1,29 @@
+---
+- hosts: localhost
+  tasks:
+    # debian packages
+    - name: install common deb packages
+      become: true
+      apt:
+        name: "{{ common_deb_packages }}"
+
+    - name: install dev deb packages
+      become: true
+      apt:
+        name: "{{ development_deb_packages }}"
+
+    # pip packages
+    - name: install python-pip
+      become: true
+      apt:
+        name: python-pip
+
+    - name: install common pip packages
+      pip:
+        name: "{{ common_pip_packages }}"
+        extra_args: --user
+
+    - name: install dev pip packages
+      pip:
+        name: "{{ development_pip_packages }}"
+        extra_args: --user

@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+    - name: git clone my git repos
+      git:
+        repo: "git@github.com:sergey-pashaev/{{ item }}.git"
+        dest: "~/github/{{ item }}"
+        update: no
+      with_items: "{{ my_git_repos }}"

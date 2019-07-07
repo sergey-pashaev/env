@@ -1,0 +1,10 @@
+[user]
+	email = sergey.pashaev@gmail.com
+	name = Sergey Pashaev
+[pull]
+	rebase = true
+
+[url "https://anongit.kde.org/"]
+    insteadOf = kde:
+[url "git@git.kde.org:"]
+    pushInsteadOf = kde:

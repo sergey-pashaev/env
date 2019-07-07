@@ -1,0 +1,16 @@
+---
+- hosts: localhost
+  tasks:
+    - name: start docker service
+      become: true
+      service:
+        name: docker
+        state: started
+        enabled: true
+
+    - name: add me to docker group
+      become: true
+      user:
+        name: "{{ ansible_user }}"
+        groups: "docker"
+        append: True

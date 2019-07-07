@@ -1,0 +1,8 @@
+---
+- import_playbook: packages.yml
+- import_playbook: dirs.yml
+- import_playbook: configs.yml
+- import_playbook: docker.yml
+- import_playbook: gdb.yml
+- import_playbook: github.yml
+- import_playbook: emacs.yml

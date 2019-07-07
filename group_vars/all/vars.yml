@@ -1,0 +1,90 @@
+---
+#  - docker.io
+common_deb_packages:
+  - anki
+  - apt-file
+  - apt-transport-https
+  - atool # manage archives
+  - ca-certificates
+  - chromium-browser
+  - cron
+  - curl
+  - gnupg2
+  - gnuplot
+  - graphviz
+  - htop
+  - ledger
+  - mc
+  - nmap
+  - plantuml
+  - silversearcher-ag
+  - software-properties-common
+  - ssh
+  - tmux
+  - unrar
+  - vim-nox
+  - wireshark-qt
+
+development_deb_packages:
+  - bear
+  - build-essential
+  - ccache
+  - cdecl
+  - clang
+  - clang-format
+  - clang-tidy
+  - cppcheck
+  - cutils
+  - emacs
+  - gdb
+  - gdbserver
+  - git
+  - libclang-dev
+  - linux-tools-generic
+  - ltrace
+  - pandoc
+  - python
+  - python-pip
+  - python3
+  - shellcheck
+  - strace
+  - tcpflow
+  - tshark
+  - valgrind
+
+common_pip_packages:
+  - certifi
+
+development_pip_packages:
+  - cmake
+  - cmake_format
+  - conan
+  - cppclean
+  - docker-compose
+  - pylint
+
+dotfiles:
+  - .bashrc
+  - .gitconfig
+  - .tmux.conf
+  - .gnupg/gpg.conf
+  - .ssh/config
+
+my_git_repos:
+  - .emacs.d
+  - aoc-cpp
+  - blog
+  - coding-interview-university
+  - elnode-pastebin
+  - env
+  - goflymake
+  - gore-mode
+  - helm-cscope
+  - kcachegrind
+  - practice
+  - qt-graph-template
+  - sedgewick-cpp
+  - sergey-pashaev.github.io
+  - skiena-cpp
+  - smrd
+  - socks
