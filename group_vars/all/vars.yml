@@ -73,7 +73,7 @@ dotfiles:
   - .gnupg/gpg.conf
   - .ssh/config
 
-my_git_repos:
+my_github_repos:
   - .emacs.d
   - aoc-cpp
   - blog

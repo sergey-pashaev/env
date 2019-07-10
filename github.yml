@@ -6,4 +6,4 @@
         repo: "git@github.com:sergey-pashaev/{{ item }}.git"
         dest: "~/github/{{ item }}"
         update: no
-      with_items: "{{ my_git_repos }}"
+      with_items: "{{ my_github_repos }}"
