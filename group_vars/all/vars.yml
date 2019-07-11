@@ -18,6 +18,7 @@ common_deb_packages:
   - mc
   - nmap
   - plantuml
+  - powertop
   - silversearcher-ag
   - software-properties-common
   - ssh
