@@ -12,9 +12,11 @@ common_deb_packages:
   - gnupg2
   - gnuplot
   - graphviz
+  - hddtemp
   - htop
   - hugo
   - ledger
+  - lm-sensors
   - mc
   - nmap
   - plantuml
