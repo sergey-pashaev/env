@@ -18,6 +18,7 @@ common_deb_packages:
   - ledger
   - lm-sensors
   - mc
+  - moc
   - nmap
   - plantuml
   - powertop
