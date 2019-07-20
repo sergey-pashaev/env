@@ -1,6 +1,7 @@
 ---
 common_deb_packages:
   - anki
+  - apcalc # calc
   - apt-file
   - apt-transport-https
   - atool # manage archives
