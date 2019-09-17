@@ -1,10 +1,18 @@
 [user]
-	email = sergey.pashaev@gmail.com
 	name = Sergey Pashaev
-[pull]
+	email = bioh@yandex-team.ru
+[branch "master"]
 	rebase = true
-
-[url "https://anongit.kde.org/"]
-    insteadOf = kde:
-[url "git@git.kde.org:"]
-    pushInsteadOf = kde:
+	remote = origin
+	merge = master
+[branch]
+	autosetuprebase = always
+[core]
+	longpaths = true
+	fscache = true
+	preloadindex = true
+	autocrlf = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
