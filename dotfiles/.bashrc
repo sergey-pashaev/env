@@ -89,15 +89,11 @@ fi
 
 [ -z "$TMUX" ] && export TERM=xterm-256color
 
+export PATH="$HOME/workspace/ya/depot_tools:$PATH"
 export PATH="/usr/lib/ccache/:$PATH"
 export PATH=$PATH:~/.local/bin
 
-alias mx='env TERM=xterm-256color emacs -Q -nw'
-export EDITOR="mx"
-
 alias tmux='tmux attach || tmux new'
-alias socks5='ssh -D 1080 -f -C -q -N deploy@do-ubuntu-01 -p 443'
-
 alias ll='ls -lAh'
 
 cd() { builtin cd "$@" && ll; }
