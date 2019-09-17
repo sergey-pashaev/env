@@ -6,7 +6,6 @@ common_deb_packages:
   - apt-transport-https
   - atool # manage archives
   - ca-certificates
-  - chromium-browser
   - cron
   - curl
   - docker.io
