@@ -68,6 +68,7 @@ development_pip_packages:
   - cppclean
   - docker-compose
   - pylint
+  - python-language-server[all]
   - virtualenv
 
 snap_packages:
