@@ -29,6 +29,7 @@ common_deb_packages:
   - unrar
   - vim-nox
   - wireshark-qt
+  - xclip
 
 development_deb_packages:
   - bear
