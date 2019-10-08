@@ -7,3 +7,9 @@
         dest: "~/github/{{ item }}"
         update: no
       with_items: "{{ my_github_repos }}"
+
+    - name: git clone extrakto (for tmux/shell autocomplete)
+      git:
+        repo: https://github.com/laktak/extrakto
+        dest: ~/src/extrakto
+        update: no
