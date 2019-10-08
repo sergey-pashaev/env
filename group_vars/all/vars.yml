@@ -52,6 +52,7 @@ development_deb_packages:
   - python
   - python-pip
   - python3
+  - rr
   - shellcheck
   - sqlite3
   - strace
