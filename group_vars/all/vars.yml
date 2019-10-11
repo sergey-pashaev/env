@@ -57,6 +57,7 @@ development_deb_packages:
   - sqlite3
   - strace
   - tcpflow
+  - tig
   - tshark
   - valgrind
 
