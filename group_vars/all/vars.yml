@@ -9,6 +9,7 @@ common_deb_packages:
   - cron
   - curl
   - docker.io
+  - ditaa
   - gnupg2
   - gnuplot
   - graphviz
