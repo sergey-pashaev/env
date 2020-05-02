@@ -1,7 +1,6 @@
 ---
 - hosts: localhost
   tasks:
-    # debian packages
     - name: install common deb packages
       become: true
       apt:
@@ -12,7 +11,6 @@
       apt:
         name: "{{ development_deb_packages }}"
 
-    # pip packages
     - name: install python-pip
       become: true
       apt:
@@ -28,7 +26,6 @@
         name: "{{ development_pip_packages }}"
         extra_args: --user
 
-    # snap packages
     - name: install snap packages
       become: true
       snap:
