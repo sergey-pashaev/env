@@ -48,6 +48,7 @@ development_deb_packages:
   - libclang-dev
   - linux-tools-generic
   - ltrace
+  - ninja-build
   - pandoc
   - python
   - python-pip
