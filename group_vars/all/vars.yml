@@ -97,6 +97,7 @@ my_github_repos:
   - skiena-cpp
   - smrd
   - socks
+  - doom-emacs
 
 dash_docsets:
   - Ansible
