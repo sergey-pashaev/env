@@ -4,3 +4,8 @@ env:
 	sudo apt-get update
 	sudo apt-get install -y ansible git
 	ansible-playbook -vvv -K main.yml
+
+py3-by-default:
+	sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
+	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
+	python --version
