@@ -41,6 +41,7 @@ development_deb_packages:
   - clang-tidy
   - cppcheck
   - cutils
+  - dwarfdump
   - emacs
   - gdb
   - gdbserver
