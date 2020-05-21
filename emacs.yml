@@ -6,9 +6,3 @@
         src: ~/github/.emacs.d
         dest: ~/.emacs.d
         state: link
-
-    - name: download dash docsets
-      get_url:
-        url: "http://london.kapeli.com/feeds/{{ item }}.tgz"
-        dest: "~/docsets/{{ item }}.tgz"
-      with_items: "{{ dash_docsets }}"

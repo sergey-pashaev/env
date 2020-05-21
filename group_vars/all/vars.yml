@@ -1,6 +1,5 @@
 ---
 common_deb_packages:
-  - anki
   - apcalc # calc
   - apt-file
   - apt-transport-https
@@ -8,28 +7,22 @@ common_deb_packages:
   - ca-certificates
   - cron
   - curl
-  - docker.io
   - ditaa
   - gnupg2
   - gnuplot
   - graphviz
-  - hddtemp
   - htop
-  - hugo
-  - ledger
   - lm-sensors
   - mc
   - moc
   - nmap
   - plantuml
-  - powertop
   - silversearcher-ag
   - software-properties-common
   - ssh
   - tmux
   - unrar
   - vim-nox
-  - wireshark-qt
   - xclip
 
 development_deb_packages:
@@ -42,6 +35,7 @@ development_deb_packages:
   - clang-tidy
   - cppcheck
   - cutils
+  - emacs
   - gdb
   - gdbserver
   - git
@@ -70,14 +64,9 @@ development_pip_packages:
   - cmake_format
   - conan
   - cppclean
-  - docker-compose
   - pylint
   - python-language-server[all]
   - virtualenv
-
-snap_packages:
-  - ccls
-  - emacs
 
 dotfiles:
   - .bashrc
@@ -88,29 +77,4 @@ dotfiles:
 
 my_github_repos:
   - .emacs.d
-  - aoc-cpp
-  - blog
-  - coding-interview-university
-  - elnode-pastebin
   - env
-  - goflymake
-  - gore-mode
-  - helm-cscope
-  - kcachegrind
-  - practice
-  - qt-graph-template
-  - sedgewick-cpp
-  - sergey-pashaev.github.io
-  - skiena-cpp
-  - smrd
-  - socks
-
-dash_docsets:
-  - Ansible
-  - Bash
-  - Boost
-  - C
-  - C++
-  - CMake
-  - Docker
-  - Python_2
