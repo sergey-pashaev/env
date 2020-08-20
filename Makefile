@@ -11,3 +11,8 @@ py3-by-default:
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 1
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 2
 	python --version
+
+py2-by-default:
+	sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 2
+	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+	python --version
