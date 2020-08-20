@@ -88,6 +88,7 @@ dotfiles:
   - .ssh/config
 
 my_github_repos:
+  - .doom.d
   - .emacs.d
   - aoc-cpp
   - blog
