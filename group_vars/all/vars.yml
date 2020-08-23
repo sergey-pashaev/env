@@ -10,6 +10,7 @@ common_deb_packages:
   - cron
   - curl
   - docker.io
+  - ditaa
   - gnupg2
   - gnuplot
   - graphviz
@@ -30,6 +31,7 @@ common_deb_packages:
   - unrar
   - vim-nox
   - wireshark-qt
+  - xclip
 
 development_deb_packages:
   - bear
@@ -41,7 +43,6 @@ development_deb_packages:
   - clang-tidy
   - cppcheck
   - cutils
-  - emacs
   - gdb
   - gdbserver
   - git
@@ -60,6 +61,7 @@ development_deb_packages:
   - sqlite3
   - strace
   - tcpflow
+  - tig
   - tshark
   - valgrind
 
@@ -73,7 +75,12 @@ development_pip_packages:
   - cppclean
   - docker-compose
   - pylint
+  - python-language-server[all]
   - virtualenv
+
+snap_packages:
+  - ccls
+  - emacs
 
 dotfiles:
   - .bashrc
@@ -83,6 +90,7 @@ dotfiles:
   - .ssh/config
 
 my_github_repos:
+  - .doom.d
   - .emacs.d
   - aoc-cpp
   - blog

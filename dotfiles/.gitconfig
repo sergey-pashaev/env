@@ -1,6 +1,21 @@
 [user]
 	email = sergey.pashaev@gmail.com
 	name = Sergey Pashaev
+[branch "master"]
+	rebase = true
+	remote = origin
+	merge = master
+[branch]
+	autosetuprebase = always
+[core]
+	longpaths = true
+	fscache = true
+	preloadindex = true
+	autocrlf = false
+[color]
+	diff = auto
+	status = auto
+	branch = auto
 [pull]
 	rebase = true
 

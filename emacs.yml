@@ -1,9 +1,15 @@
 ---
 - hosts: localhost
   tasks:
+    - name: git clone doom-emacs
+      git:
+        repo: https://github.com/hlissner/doom-emacs
+        dest: ~/github/doom-emacs
+        update: no
+
     - name: install .emacs.d
       file:
-        src: ~/github/.emacs.d
+        src: ~/github/doom-emacs
         dest: ~/.emacs.d
         state: link
 
