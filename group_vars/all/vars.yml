@@ -37,6 +37,7 @@ development_deb_packages:
   - gdb
   - gdbserver
   - git
+  - gperf
   - libclang-dev
   - linux-tools-generic
   - ltrace
