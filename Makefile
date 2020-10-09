@@ -16,3 +16,8 @@ py2-by-default:
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 2
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 	python --version
+
+emacs27:
+	sudo add-apt-repository ppa:kelleyk/emacs
+	sudo apt update
+	sudo apt install -y emacs27
