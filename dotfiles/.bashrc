@@ -113,9 +113,6 @@ alias grecent='git log --pretty=format:"%h %ad | %s%d [%an]" --date=short'
 alias tmux='tmux attach || tmux new'
 alias ll='ls -lAh'
 
-cd() { builtin cd "$@" && ll; }
-mcd() { mkdir "$1" && builtin cd "$1"; }
-
 # A simple Bash script for printing timing information for each command line
 # executed.
 #
