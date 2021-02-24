@@ -14,7 +14,6 @@ common_deb_packages:
   - htop
   - lm-sensors
   - mc
-  - moc
   - nmap
   - plantuml
   - silversearcher-ag
@@ -41,7 +40,6 @@ development_deb_packages:
   - git
   - libclang-dev
   - linux-tools-generic
-  - ltrace
   - ninja-build
   - pandoc
   - python
@@ -51,10 +49,7 @@ development_deb_packages:
   - rr
   - shellcheck
   - sqlite3
-  - strace
-  - tcpflow
   - tig
-  - tshark
   - valgrind
 
 common_pip_packages:
