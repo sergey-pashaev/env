@@ -33,7 +33,7 @@ development_deb_packages:
   - clang-tidy
   - cppcheck
   - cutils
-  - emacs
+  - emacs26
   - gdb
   - gdbserver
   - git
@@ -71,5 +71,5 @@ dotfiles:
   - .ssh/config
 
 my_github_repos:
-  - .emacs.d
   - env
+  - .doom.d
