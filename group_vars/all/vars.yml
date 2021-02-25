@@ -68,7 +68,6 @@ dotfiles:
   - .gitconfig
   - .tmux.conf
   - .gnupg/gpg.conf
-  - .ssh/config
 
 my_github_repos:
   - env
