@@ -144,7 +144,7 @@ export PATH=$PATH:$HOME/.emacs.d/bin # for doom-emacs
 # tmux
 [ -z "$TMUX" ] && export TERM=xterm-256color
 alias tmux='tmux attach || tmux new'
-alias ll='ls -lAh'
+alias ll='ls -lGAh'
 
 cd() { builtin cd "$@"; }
 mcd() { mkdir "$1" && builtin cd "$1"; }
