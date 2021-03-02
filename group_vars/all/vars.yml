@@ -56,7 +56,6 @@ common_pip_packages:
 
 development_pip_packages:
   - cmake
-  - cmake_format
   - conan
   - cppclean
   - pylint
