@@ -16,3 +16,5 @@
 	diff = auto
 	status = auto
 	branch = auto
+[http]
+	cookiefile = /home/bioh/.gitcookies

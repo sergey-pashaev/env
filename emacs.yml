@@ -13,8 +13,14 @@
         dest: ~/.emacs.d
         state: link
 
-    - name: download dash docsets
-      get_url:
-        url: "http://london.kapeli.com/feeds/{{ item }}.tgz"
-        dest: "~/docsets/{{ item }}.tgz"
-      with_items: "{{ dash_docsets }}"
+    - name: setup .doom.d
+      file:
+        src: ~/github/.doom.d
+        dest: ~/.doom.d
+        state: link
+
+    # - name: download dash docsets
+    #   get_url:
+    #     url: "http://london.kapeli.com/feeds/{{ item }}.tgz"
+    #     dest: "~/docsets/{{ item }}.tgz"
+    #   with_items: "{{ dash_docsets }}"

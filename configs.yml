@@ -8,3 +8,10 @@
         dest: "~/{{ item }}"
         state: link
       with_items: "{{ dotfiles }}"
+
+    # copy, since it's not allowed as symlink
+    - name: install ~/.ssh/config
+      file:
+        src: "{{ playbook_dir }}/dotfiles/.ssh/config"
+        dest: "~/.ssh/config"
+        mode: '0600'

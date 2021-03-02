@@ -1,39 +1,31 @@
 ---
 common_deb_packages:
-  - anki
   - apcalc # calc
   - apt-file
   - apt-transport-https
   - atool # manage archives
   - ca-certificates
-  - cron
   - curl
-  - docker.io
   - ditaa
   - gnupg2
   - gnuplot
   - graphviz
   - hddtemp
   - htop
-  - hugo
-  - ledger
   - lm-sensors
   - mc
-  - moc
   - nmap
   - plantuml
   - powertop
   - silversearcher-ag
-  - software-properties-common
+  - software-properties-common # ?
   - ssh
   - tmux
   - unrar
   - vim-nox
-  - wireshark-qt
   - xclip
 
 development_deb_packages:
-  - bear
   - build-essential
   - ccache
   - cdecl
@@ -47,9 +39,7 @@ development_deb_packages:
   - git
   - libclang-dev
   - linux-tools-generic
-  - ltrace
   - ninja-build
-  - pandoc
   - python
   - python-pip
   - python3
@@ -57,10 +47,7 @@ development_deb_packages:
   - rr
   - shellcheck
   - sqlite3
-  - strace
-  - tcpflow
   - tig
-  - tshark
   - valgrind
 
 common_pip_packages:
@@ -71,7 +58,6 @@ development_pip_packages:
   - cmake_format
   - conan
   - cppclean
-  - docker-compose
   - pylint
   - python-language-server[all]
   - virtualenv
@@ -85,27 +71,11 @@ dotfiles:
   - .gitconfig
   - .tmux.conf
   - .gnupg/gpg.conf
-  - .ssh/config
 
 my_github_repos:
   - .doom.d
-  - .emacs.d
-  - aoc-cpp
-  - blog
-  - coding-interview-university
-  - elnode-pastebin
   - env
-  - goflymake
-  - gore-mode
-  - helm-cscope
-  - kcachegrind
   - practice
-  - qt-graph-template
-  - sedgewick-cpp
-  - sergey-pashaev.github.io
-  - skiena-cpp
-  - smrd
-  - socks
 
 dash_docsets:
   - Ansible
