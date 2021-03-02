@@ -34,6 +34,7 @@ development_deb_packages:
   - clang-tidy
   - cppcheck
   - cutils
+  - emacs27
   - gdb
   - gdbserver
   - git
@@ -62,9 +63,9 @@ development_pip_packages:
   - python-language-server[all]
   - virtualenv
 
-snap_packages:
-  - ccls
-  - emacs
+# snap_packages:
+#   - ccls
+#   - emacs
 
 dotfiles:
   - .bashrc

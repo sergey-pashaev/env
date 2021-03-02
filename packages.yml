@@ -26,8 +26,8 @@
         name: "{{ development_pip_packages }}"
         extra_args: --user
 
-    - name: install snap packages
-      become: true
-      snap:
-        name: "{{ snap_packages }}"
-        classic: true
+    # - name: install snap packages
+    #   become: true
+    #   snap:
+    #     name: "{{ snap_packages }}"
+    #     classic: true
