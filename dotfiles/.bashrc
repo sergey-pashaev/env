@@ -146,9 +146,6 @@ export PATH=$PATH:$HOME/.emacs.d/bin # for doom-emacs
 alias tmux='tmux attach || tmux new'
 alias ll='ls -lGAh'
 
-cd() { builtin cd "$@"; }
-mcd() { mkdir "$1" && builtin cd "$1"; }
-
 # fancy PS1 (time elapsed, working directory, $?, git branch
 PS1=$( printf "\[\033[01;34m\]\W\[\033[00m\] \$? \[\e[1;33m\]\$(git_repo_root_dir)\[\033[00m\]\$(parse_git_branch) \$ ")
 
