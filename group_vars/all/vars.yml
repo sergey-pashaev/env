@@ -1,22 +1,17 @@
 ---
 common_deb_packages:
-  - anki
   - apcalc # calc
   - apt-file
   - apt-transport-https
   - atool # manage archives
   - ca-certificates
-  - chromium-browser
-  - cron
   - curl
-  - docker.io
   - ditaa
   - gnupg2
   - gnuplot
   - graphviz
   - hddtemp
   - htop
-  - hugo
   - ledger
   - lm-sensors
   - mc
@@ -30,7 +25,6 @@ common_deb_packages:
   - tmux
   - unrar
   - vim-nox
-  - wireshark-qt
   - xclip
 
 development_deb_packages:
@@ -98,6 +92,7 @@ my_github_repos:
   - gore-mode
   - helm-cscope
   - kcachegrind
+  - notes
   - practice
   - qt-graph-template
   - sedgewick-cpp
