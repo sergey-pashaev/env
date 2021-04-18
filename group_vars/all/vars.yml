@@ -79,6 +79,7 @@ dotfiles:
   - .tmux.conf
   - .gnupg/gpg.conf
   - .ssh/config
+  - .ledgerrc
 
 my_github_repos:
   - .doom.d
