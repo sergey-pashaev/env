@@ -10,16 +10,11 @@ common_deb_packages:
   - gnupg2
   - gnuplot
   - graphviz
-  - hddtemp
   - htop
   - ledger
-  - lm-sensors
   - mc
-  - moc
   - nmap
   - plantuml
-  - powertop
-  - silversearcher-ag
   - software-properties-common
   - ssh
   - tmux
@@ -28,7 +23,6 @@ common_deb_packages:
   - xclip
 
 development_deb_packages:
-  - bear
   - build-essential
   - ccache
   - cdecl
@@ -79,36 +73,36 @@ dotfiles:
   - .tmux.conf
   - .gnupg/gpg.conf
   - .ssh/config
-  - .ledgerrc
+
+# - .ledgerrc
 
 my_github_repos:
   - .doom.d
   - .emacs.d
-  - aoc-cpp
-  - blog
-  - coding-interview-university
-  - elnode-pastebin
-  - env
-  - goflymake
-  - gore-mode
-  - helm-cscope
-  - kcachegrind
-  - notes
   - practice
-  - ledger-data
-  - qt-graph-template
-  - sedgewick-cpp
-  - sergey-pashaev.github.io
-  - skiena-cpp
-  - smrd
-  - socks
+
+# - aoc-cpp
+# - blog
+# - coding-interview-university
+# - elnode-pastebin
+# - env
+# - goflymake
+# - gore-mode
+# - helm-cscope
+# - kcachegrind
+# - notes
+# - ledger-data
+# - qt-graph-template
+# - sedgewick-cpp
+# - sergey-pashaev.github.io
+# - skiena-cpp
+# - smrd
+# - socks
 
 dash_docsets:
   - Ansible
-  - Bash
   - Boost
   - C
   - C++
   - CMake
-  - Docker
-  - Python_2
+  - Python_3

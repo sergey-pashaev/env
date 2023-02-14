@@ -16,3 +16,11 @@ py2-by-default:
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 2
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 	python --version
+
+update:
+	git pull origin
+	ansible-playbook -vvv -K main.yml
+
+rust-install:
+	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+	rustup component add rls

@@ -1,9 +1,5 @@
 # env
 
-## before install
-
-Make sure that `keys.tar.gz` is installed in `~/.ssh/`.
-
 ## install
 
-    $ make
+    $ mkdir -p ~/github && cd ~/github && git clone git@github.com:sergey-pashaev/env.git cd env && make install-ansible && make env
